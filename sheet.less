@@ -1,0 +1,67 @@
+// out: style.css
+
+// tabela de cores
+@vermelho: rgb(217, 0, 0);
+@branco: rgb(230, 230, 230);
+@preto: rgb(30, 30, 30);
+@amarelo: rgb(240, 200, 0);
+
+// fontes
+@padrao: Roboto;
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+body {
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 100%;
+    background: @vermelho;
+    font-family: @padrao;
+    text-align: center;
+        header {
+            background: @vermelho;
+            color: @branco;
+                h1 {
+                    padding: 1em 0;
+                    font-size: 4em;
+                }
+        }
+
+        hr {
+            padding: 3em 0;
+        }
+
+        article {
+            width: 100%;
+            background: lighten(@branco, 100%);
+            padding: 3em 0;
+                h3 {
+                    color: @preto;
+                    font-size: 2.5em;
+                    padding: 0 0 1em 0;
+                }
+                img {
+                    width: 200;
+                    height: 100;
+                }
+                p {
+                    padding: 1em 0 0 0;
+                    color: @preto;
+                    font-weight: bold;
+                    font-size: 2em;
+                }
+                button {
+                    margin: 2em 0 0 0;
+                    padding: 0.5em 1.5em;
+                    border: 1px solid @preto;
+                    border-radius: .5em;
+                    background: @amarelo;
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+        }
+
+}

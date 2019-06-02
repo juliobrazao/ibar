@@ -1,0 +1,52 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+body {
+  font-size: 10px;
+  display: grid;
+  grid-template-columns: 100%;
+  background: #d90000;
+  font-family: Roboto;
+  text-align: center;
+}
+body header {
+  background: #d90000;
+  color: #e6e6e6;
+}
+body header h1 {
+  padding: 1em 0;
+  font-size: 4em;
+}
+body hr {
+  padding: 3em 0;
+}
+body article {
+  width: 100%;
+  background: #ffffff;
+  padding: 3em 0;
+}
+body article h3 {
+  color: #1e1e1e;
+  font-size: 2.5em;
+  padding: 0 0 1em 0;
+}
+body article img {
+  width: 200;
+  height: 100;
+}
+body article p {
+  padding: 1em 0 0 0;
+  color: #1e1e1e;
+  font-weight: bold;
+  font-size: 2em;
+}
+body article button {
+  margin: 2em 0 0 0;
+  padding: 0.5em 1.5em;
+  border: 1px solid #1e1e1e;
+  border-radius: .5em;
+  background: #f0c800;
+  font-size: 2em;
+  font-weight: bold;
+}
