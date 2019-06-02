@@ -1,6 +1,7 @@
 * {
   margin: 0 auto;
   padding: 0;
+  outline: none;
 }
 body {
   font-size: 10px;
