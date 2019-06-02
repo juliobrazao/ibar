@@ -12,8 +12,11 @@ body {
   text-align: center;
 }
 body header {
+  text-align: left;
   background: #d90000;
   color: #e6e6e6;
+  display: grid;
+  grid-template-columns: 50%;
 }
 body header h1 {
   padding: 1em 0;
@@ -50,4 +53,12 @@ body article button {
   background: #f0c800;
   font-size: 2em;
   font-weight: bold;
+}
+body span.divisor {
+  padding: 5em 0;
+}
+body footer {
+  padding: 2em 0;
+  font-size: 2em;
+  color: #e6e6e6;
 }

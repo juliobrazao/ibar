@@ -23,8 +23,11 @@ body {
     font-family: @padrao;
     text-align: center;
         header {
+            text-align:left;
             background: @vermelho;
             color: @branco;
+            display: grid;
+            grid-template-columns: 50%;
                 h1 {
                     padding: 1em 0;
                     font-size: 4em;
@@ -63,6 +66,16 @@ body {
                     font-size: 2em;
                     font-weight: bold;
                 }
+        }
+
+        span.divisor {
+            padding: 5em 0;
+        }
+
+        footer {
+            padding: 2em 0;
+            font-size: 2em;
+            color: @branco;
         }
 
 }
