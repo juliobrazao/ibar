@@ -22,6 +22,16 @@ body header h1 {
   padding: 1em 0;
   font-size: 4em;
 }
+body div#status {
+  width: 100%;
+  padding: .5em;
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+  display: none;
+  background: #f0c800;
+  color: #1e1e1e;
+}
 body hr {
   padding: 3em 0;
 }
